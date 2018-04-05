@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Dr.Gwalior</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not registered? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">Logout</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_info">InfoActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string-array name="nav_item_activity_titles">
+        <item>SAD</item>
+        <item>DBMS</item>
+        <item>COA</item>
+        <item>CN</item>
+        <item>CS</item>
+        <item>IE</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

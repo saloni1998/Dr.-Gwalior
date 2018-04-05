@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:title="Help and FeedBack" />
+            <item
+                android:id="@+id/gwl"
+                android:title="About Gwalior" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ayur"
+            android:title="Ayurvedic Doctors" />
+        <item
+            android:id="@+id/card"
+            android:title="Cardiologists" />
+        <item
+            android:id="@+id/chest"
+            android:title="Chest Specialists" />
+        <item
+            android:id="@+id/cosmo"
+            android:title="Cosmetic Surgeons" />
+        <item
+            android:id="@+id/dent"
+            android:title="Dentists" />
+        <item
+            android:id="@+id/derm"
+            android:title="Dermatologists" />
+        <item
+            android:id="@+id/diab"
+            android:title="Diabetologists" />
+        <item
+            android:id="@+id/diet"
+            android:title="Dieticians" />
+
+        <item
+            android:id="@+id/ent"
+            android:title="ENT Specialists" />
+        <item
+            android:id="@+id/gastro"
+            android:title="Gastroenterologists" />
+        <item
+            android:id="@+id/gynac"
+            android:title="Gynaecologists" />
+        <item
+            android:id="@+id/homeo"
+            android:title="Homeopathic Doctors" />
+        <item
+            android:id="@+id/neuro"
+            android:title="Neurologists" />
+        <item
+            android:id="@+id/ortho"
+            android:title="Orthopaedic Surgeons" />
+        <item
+            android:id="@+id/paedic"
+            android:title="Paediatricians" />
+        <item
+            android:id="@+id/physio"
+            android:title="Physiotherapists" />
+        <item
+            android:id="@+id/psych"
+            android:title="Psychiatrists" />
+        <item
+            android:id="@+id/sexo"
+            android:title="Sexologists" />
+        <item
+            android:id="@+id/uro"
+            android:title="Urologists" />
+        <item
+            android:id="@+id/vete"
+            android:title="Veterinary Doctors" />
+    </group>
+
+</menu>

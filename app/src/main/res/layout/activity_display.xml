@@ -1,0 +1,221 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewplaces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:alpha="0.7"
+        android:src="@mipmap/display" />
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="TextView"
+        android:layout_below="@+id/toolbar_actionbar" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:stepSize="0.1"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="7dp"
+         />
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@mipmap/ic_call_black_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="11dp" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/call"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="11dp"
+        android:background="@mipmap/ic_room_black_24dp" />
+
+    <TextView
+        android:id="@+id/phoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@+id/call"
+        android:textColor="#000000"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_toEndOf="@+id/home"
+        android:layout_marginStart="21dp"
+        android:textColor="#000000"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/home"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="270dp"
+        android:padding="1dp"
+        android:layout_marginStart="11dp"
+        app:srcCompat="@mipmap/ic_email_black_24dp" />
+
+    <TextView
+        android:id="@+id/mailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_toEndOf="@+id/email"
+        android:layout_marginStart="21dp"
+        android:textColor="#000000"
+        android:text="doctorsforum@gmail.com" />
+
+    <ImageView
+        android:id="@+id/timings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="11dp"
+        app:srcCompat="@mipmap/ic_schedule_black_24dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_toEndOf="@+id/timings"
+        android:layout_marginStart="21dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/generalinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/email"
+        android:layout_marginTop="370dp"
+        android:text="General Information"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="26dp"
+
+        android:layout_below="@+id/generalinfo"
+         />
+
+    <TextView
+        android:id="@+id/degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="420dp"
+        android:layout_toEndOf="@+id/pic"
+        android:text="Degree:"
+        />
+
+    <TextView
+        android:id="@+id/degname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MBBS,MD"
+        android:textColor="#000000"
+        android:layout_alignBaseline="@+id/degree"
+        android:layout_alignBottom="@+id/degree"
+        android:layout_alignStart="@+id/textView19" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Surgery and Homeopathy"
+
+        android:layout_marginStart="7dp"
+        android:layout_alignBottom="@+id/pic"
+        android:layout_toEndOf="@+id/specialization" />
+
+    <TextView
+        android:id="@+id/experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience:"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_above="@+id/specialization"
+        android:layout_alignEnd="@+id/generalinfo"
+        android:layout_marginBottom="21dp" />
+
+    <TextView
+        android:id="@+id/specialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specialization:"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_toEndOf="@+id/pic"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+         />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="10 years"
+        android:layout_alignBaseline="@+id/experience"
+        android:layout_alignBottom="@+id/experience"
+        android:layout_toEndOf="@+id/specialization" />
+
+
+</RelativeLayout>
+
+
